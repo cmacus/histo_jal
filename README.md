@@ -7,6 +7,10 @@ However, the real reason I took up this project was to invetigate our own visual
 
 Histologic images, on the other hand, are completely new to the non-pathologist human. Try going through the dataset yourself (remove the labels first) and see if __you__ are good enough as the ML model (histo_3.model). The model has made a few errors, which have been reported in our preprint https://www.medrxiv.org/content/10.1101/2021.07.20.21260573v1. Consider the following images. Without any labels, would you consider them the same class?
 
+![](190415110403\(10\).jpg)
+![](190415113827\(45\).jpg)
+![](190701131747.png)
+
 
 The 'kidney' class is particularly troublesome for the machine. It seems to confuse 'glomeruli' (Yes, Bowman's corpuscles, from your biology book) with alveolar spaces, and what not. Strangely, many rookie pathologists have suffered once or twice from this problem, but never after. We seem to develop an intrinsic 'sixth sense' of what is a glomerulus.
 
